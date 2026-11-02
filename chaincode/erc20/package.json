@@ -1,0 +1,16 @@
+{
+  "name": "autocoin-chaincode",
+  "version": "1.0.0",
+  "description": "AutoCoin token chaincode for Hyperledger Fabric",
+  "main": "index.js",
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fabric-contract-api": "2.5.8",
+    "fabric-shim": "2.5.8"
+  }
+}
